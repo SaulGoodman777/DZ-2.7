@@ -1,8 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace DZ_2._7
 {
@@ -16,8 +12,8 @@ namespace DZ_2._7
             String yourEmail = "saulgoodman7777@yandex.ru";
             Double assessmentPrograming = 89.7;
             Double assessmentMath = 78.8;
-            Double assessmentPhysics = 92.3; 
-            Console.WriteLine($"Full Name: {fullName}\n Your Age: {yourAge}\n Your Email {yourEmail}\n Your Points for Programming {assessmentPrograming}\n Your Points for Math {assessmentMath}\n Your Points for Physics {assessmentPhysics}" );
+            Double assessmentPhysics = 92.3;
+            Console.WriteLine($"Full Name: {fullName}\n Your Age: {yourAge}\n Your Email {yourEmail}\n Your Points for Programming {assessmentPrograming}\n Your Points for Math {assessmentMath}\n Your Points for Physics {assessmentPhysics}");
             Console.ReadKey();
 
             //Console.WriteLine("Full name: " + fullName);
@@ -34,11 +30,11 @@ namespace DZ_2._7
             Double c = assessmentPhysics;
 
             //Double totalPoints = a + b + c;
-            Console.WriteLine($"Total ponts : {a+b+c}");
+            Console.WriteLine($"Total ponts : {a + b + c}");
             Console.ReadKey();
 
             //Double averagePoints = (a + b + c) / 3;
-            Console.WriteLine($"Average points: {(a+b+c)/3}");
+            Console.WriteLine($"Average points: {(a + b + c) / 3}");
             Console.ReadKey();
 
 
